@@ -28,6 +28,8 @@ def remove_even(lst):
     return odd_list
 
 
+# Time: O(n)
+# Space: O(n)
 def remove_even_pythonic(lst):
     return [number for number in lst if number % 2 != 0]
 
